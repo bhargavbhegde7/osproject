@@ -2,9 +2,9 @@ mov ah, 0x0e
 
 mov bp, 0x8000
 mov sp, bp
-push 'A'
-push 'B'
 push 'C'
+push 'B'
+push 'A'
 
 pop bx
 mov al, bl
