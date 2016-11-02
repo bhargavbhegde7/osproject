@@ -35,6 +35,8 @@ mov al, '#'
 int 0x10
 mov al, '@'
 int 0x10
+mov al, '@'
+int 0x10
 
 jmp $
 times 510-($-$$) db 0
